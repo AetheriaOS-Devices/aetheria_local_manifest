@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <!-- vendor/interfaces (TrebleDroid) -->
+  <project name="TrebleDroid/vendor_interfaces"
+           path="vendor/interfaces"
+           remote="github"
+           revision="android-16.0" />
+
+  <!-- device/phh/treble (TrebleDroid) -->
+  <project name="TrebleDroid/device_phh_treble"
+           path="device/phh/treble"
+           remote="github"
+           revision="android-16.0" />
+
+  <!-- treble_app (TrebleDroid) -->
+  <project name="TrebleDroid/treble_app"
+           path="treble_app"
+           remote="github"
+           revision="master" />
+
+  <!-- vendor/hardware_overlay (TrebleDroid) -->
+  <project name="TrebleDroid/vendor_hardware_overlay"
+           path="vendor/hardware_overlay"
+           remote="github"
+           revision="pie" />
+
+  <!-- treble_adapter (ponces) -->
+  <project name="ponces/treble_adapter"
+           path="treble_adapter"
+           remote="github"
+           revision="master" />
+
+</manifest>
