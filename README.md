@@ -5,7 +5,7 @@ Aetheria Devices Manifests
 Getting Started
 ---------------
 
-To get started with LineageOS-Next, you'll need to get familiar with [Source Control Tools](https://source.android.com/setup/develop).
+To get started with AetheriaOS, you'll need to get familiar with [Source Control Tools](https://source.android.com/setup/develop).
 
 To initialize your local repository using the AetheriaOS trees, use a command like this:
 ```bash
