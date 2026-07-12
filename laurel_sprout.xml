@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <!-- Device tree -->
+  <!-- Device tree: laurel_sprout specific -->
   <project path="device/xiaomi/laurel_sprout"
-           name="LineageOS/android_device_xiaomi_laurel_sprout"
+           name="AetheriaOS-Devices/aetheria_device_xiaomi_laurel_sprout"
            remote="github"
-           revision="lineage-23.2" />
+           revision="aetheria-1.0" />
 
-  <!-- Device common tree (sm6125 shared device config) -->
+  <!-- Device common tree: sm6125 shared config -->
   <project path="device/xiaomi/sm6125-common"
-           name="LineageOS/android_device_xiaomi_sm6125-common"
+           name="AetheriaOS-Devices/aetheria_device_xiaomi_sm6125-common"
            remote="github"
-           revision="lineage-23.2" />
+           revision="aetheria-1.0" />
 
   <!-- Kernel -->
   <project path="kernel/xiaomi/sm6125"
