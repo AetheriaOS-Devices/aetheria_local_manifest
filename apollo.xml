@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote name="aoitsme"
+          fetch="https://github.com/aoitsme"
+          revision="lineage-23.2" />
+  <project path="kernel/sony/sdm845"
+           name="android_kernel_sony_sdm845"
+           remote="aoitsme"
+           revision="bpf" />
+  <project path="device/sony/apollo"
+           name="android_device_sony_apollo"
+           remote="aoitsme"
+           revision="lineage-23.2" />
+  <project path="device/sony/tama-common"
+           name="android_device_sony_tama-common"
+           remote="aoitsme"
+           revision="axion-23.2" />
+  <project path="hardware/sony/SonyOpenTelephony"
+           name="android_hardware_sony_SonyOpenTelephony"
+           remote="aoitsme"
+           revision="lineage-23.2" />
+  <project path="vendor/sony/apollo"
+           name="proprietary_vendor_sony_apollo"
+           remote="aoitsme"
+           revision="lineage-23.2" />
+  <project path="vendor/sony/tama-common"
+           name="proprietary_vendor_sony_tama-common"
+           remote="aoitsme"
+           revision="lineage-23.2" />
+  <project path="vendor/lineage-priv/keys"
+           name="keys"
+           remote="aoitsme"
+           revision="master" />
+</manifest>
