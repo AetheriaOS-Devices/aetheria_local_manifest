@@ -27,8 +27,4 @@
            name="proprietary_vendor_sony_tama-common"
            remote="aoitsme"
            revision="lineage-23.2" />
-  <project path="vendor/lineage-priv/keys"
-           name="keys"
-           remote="aoitsme"
-           revision="master" />
 </manifest>
