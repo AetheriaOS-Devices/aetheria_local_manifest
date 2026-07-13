@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <!-- Remote polos, tanpa prefix org, buat reference ke org lain -->
+  
   <remote name="gh-raw" fetch="https://github.com" />
 
   <!-- Device tree: laurel_sprout specific -->
