@@ -13,7 +13,7 @@ repo init -u https://github.com/AetheriaOS/aetheria_manifest.git -b aetheria-1.0
 ```
 Clone this repository in `.repo/local_manifests`:
 ```bash
-git clone --single-branch -b laurel_sprout_aetheria-1.0 https://github.com/AetheriaOS-Devices/aetheria_local_manifest.git ~/AetheriaOS/.repo/local_manifests
+git clone --single-branch -b laurel_sprout_aetheria-1.0 https://github.com/AetheriaOS-Devices/aetheria_local_manifest.git .repo/local_manifests
 ```
 Then to sync up:
 ```bash
