@@ -1,32 +1,41 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
+  <!-- Remote polos, tanpa prefix org, buat reference ke org lain -->
+  <remote name="gh-raw" fetch="https://github.com" />
+
   <!-- Device tree: laurel_sprout specific -->
   <project path="device/xiaomi/laurel_sprout"
            name="AetheriaOS-Devices/aetheria_device_xiaomi_laurel_sprout"
-           remote="github"
+           remote="gh-raw"
            revision="aetheria-1.0" />
 
   <!-- Device common tree: sm6125 shared config -->
   <project path="device/xiaomi/sm6125-common"
            name="AetheriaOS-Devices/aetheria_device_xiaomi_sm6125-common"
-           remote="github"
+           remote="gh-raw"
            revision="aetheria-1.0" />
 
   <!-- Kernel -->
   <project path="kernel/xiaomi/sm6125"
            name="LineageOS/android_kernel_xiaomi_sm6125"
-           remote="github"
+           remote="gh-raw"
            revision="lineage-23.2" />
 
   <!-- Proprietary vendor blobs: sm6125 shared -->
   <project path="vendor/xiaomi/sm6125-common"
            name="TheMuppets/proprietary_vendor_xiaomi_sm6125-common"
-           remote="github"
+           remote="gh-raw"
            revision="lineage-23.2" />
 
   <!-- Proprietary vendor blobs: laurel_sprout specific -->
   <project path="vendor/xiaomi/laurel_sprout"
            name="TheMuppets/proprietary_vendor_xiaomi_laurel_sprout"
-           remote="github"
+           remote="gh-raw"
+           revision="lineage-23.2" />
+
+  <!-- Hardware tree: shared Xiaomi hardware components -->
+  <project path="hardware/xiaomi"
+           name="LineageOS/android_hardware_xiaomi"
+           remote="gh-raw"
            revision="lineage-23.2" />
 </manifest>
